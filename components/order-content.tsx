@@ -95,7 +95,7 @@ ${formData.specialInstructions || "None"}
 Please confirm this order. Thank you! 🙏
     `.trim()
 
-    const phoneNumber = "919876543210" // Replace with actual WhatsApp number
+    const phoneNumber = "+91 79725 52782" // Replace with actual WhatsApp number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 
     window.open(whatsappUrl, "_blank")
