@@ -1,7 +1,4 @@
 "use client"
-
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
 
@@ -48,17 +45,18 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg">
-                <Link href="/order">Order Your Tiffin Now</Link>
-              </Button>
-              <Button
-                asChild
-                variant="outline"
-                size="lg"
-                className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg bg-transparent"
+              <a
+                href="/order"
+                className="inline-flex items-center justify-center bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg rounded-md font-medium transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
-                <Link href="/tiffin-plans">View Plans</Link>
-              </Button>
+                Order Your Tiffin Now
+              </a>
+              <a
+                href="/tiffin-plans"
+                className="inline-flex items-center justify-center border-2 border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg rounded-md font-medium bg-transparent transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                View Plans
+              </a>
             </div>
           </motion.div>
 
