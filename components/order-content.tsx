@@ -40,16 +40,21 @@ export function OrderContent() {
   ]
 
   const areas = [
-    "Koramangala",
-    "BTM Layout",
-    "Jayanagar",
-    "Electronic City",
-    "Whitefield",
-    "Marathahalli",
-    "HSR Layout",
-    "Indiranagar",
-    "JP Nagar",
-    "Banashankari",
+    "Sitabuldi",
+    "Sadar",
+    "Dharampeth",
+    "Civil Lines",
+    "Ramdaspeth",
+    "Mahal",
+    "Gandhibagh",
+    "Itwari",
+    "Lakadganj",
+    "Bajaj Nagar",
+    "Medical Square",
+    "Wardha Road",
+    "Amravati Road",
+    "Kamptee Road",
+    "Hingna Road",
   ]
 
   const handleSubmit = (e: React.FormEvent) => {

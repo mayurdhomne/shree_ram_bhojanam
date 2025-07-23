@@ -160,8 +160,8 @@ Please respond to this inquiry. Thank you!
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">Address</h3>
-                      <p className="text-gray-600">123 Food Street</p>
-                      <p className="text-gray-600">Bangalore, Karnataka 560001</p>
+                      <p className="text-gray-600">Shree Ram Bhojanam Tiffin Service</p>
+                      <p className="text-gray-600">Nagpur, Maharashtra 440001</p>
                     </div>
                   </div>
                 </CardContent>
@@ -293,14 +293,14 @@ Please respond to this inquiry. Thank you!
             <CardContent className="p-0">
               <div className="w-full h-96 bg-gray-200 flex items-center justify-center">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0!2d77.6!3d12.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU0JzAwLjAiTiA3N8KwMzYnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1162.5022389255494!2d79.11963036484457!3d21.106775955929557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4b95f6085d17f%3A0xbe01fdb71bb20171!2sShree%20Ram%20Bhojanam%20Tiffin%20Service!5e1!3m2!1sen!2sin!4v1753276949746!5m2!1sen!2sin"
                   width="100%"
                   height="384"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Shree Ram Bhojanam Location"
+                  title="Shree Ram Bhojanam Location - Nagpur"
                 ></iframe>
               </div>
             </CardContent>
